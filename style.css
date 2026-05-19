@@ -303,22 +303,31 @@ nav{
 #about .row{
     display: flex;
     justify-content: space-between;
-    padding: 40px 30px;
+    padding: 40px 40px;
     align-items: center;
     gap: 40px;
 }
-#about .row .content {
-    flex: 1; 
-}
-#about .row .image-container {
-    flex: 1; 
-    display: flex;
-    justify-content: center;
-}
 #about .row img {
     width: 100%;             
-    max-width: 2000px;        
+    max-width: 500px;        
     aspect-ratio: 1 / 1;    
     object-fit: cover;      
     border-radius: 8px;    
+}
+.row .about-text{
+    width: 55%;
+    margin-right: 50px;
+}
+.row .about-text .h2{
+    display: flex;
+    align-items: center;
+}
+.row .about-text .p2{
+    margin-bottom: 30px;
+}
+.row .about-text .more{
+    background-color: var(--btn-color);
+    padding: 10px;
+    border-radius: 4px;
+    color: #ffb6c1;
 }
